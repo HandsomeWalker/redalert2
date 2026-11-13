@@ -37,7 +37,11 @@ export interface GameOpts {
     hostTeams?: boolean;
     destroyableBridges: boolean;
     multiEngineer: boolean;
+    instantCapture?: boolean;
+    delayedOils?: boolean;
     noDogEngiKills: boolean;
+    /** v0.85 option: apply the official balance rules mixin. */
+    balanceChanges?: boolean;
     mapName: string;
     mapTitle: string;
     mapDigest: string;
